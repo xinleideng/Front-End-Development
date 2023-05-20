@@ -25,21 +25,6 @@ Now you know that HTML documents are made up of elements and tags. But before ad
 
 </html>
 ```
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Little Lemon</title>
-    </head>
-    <body>
-        <h1>Our Menu</h1>
-        <h2>Falafel</h2>
-        <p>Chickpea, herbs, and spices</p>
-        <h2>Pasta Salad</h2>
-        <p>Lettuce, vegetables, and mozzarella</p>
-    </body>
-
-</html>
-
 
 ## Simple HTML tags
 - Headings
@@ -185,6 +170,16 @@ It can be nested inside other elements, for example:
 </div>
 ```
 
+Web view:
+
+<div>
+   <div>
+      <p>This is a paragraph inside a div that’s inside another div</p>
+   </div>
+</div>
+
+
+
 Div inside a dive displayed in browser 
 As mentioned, the div has no impact on content unless it is styled by CSS. Let’s add a small CSS rule that styles all divs on the page.
 
@@ -200,6 +195,20 @@ As mentioned, the div has no impact on content unless it is styled by CSS. Let�
       <p>This is a paragraph inside stylized divs</p>
    </div>
 ```
+
+Web view:
+
+<style>
+   div {
+      border: 1px solid black;
+      padding: 2px;
+   }
+</style>
+<div>
+   <div>
+      <p>This is a paragraph inside stylized divs</p>
+   </div>
+
 
 - Comments
 
