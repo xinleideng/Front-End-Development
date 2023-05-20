@@ -32,13 +32,13 @@ The primary or the most commonly used HTTP methods are, GET, POST, PUT, and DELE
 After the HTTP request line, the HTTP headers are followed by a line break. A header is a case-insensitive name followed by a: and then followed by a value.
 
 Common headers are:
-`
+```language{.line-numbers}
 Host: example.com
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0
 Accept: */*
 Accept-Language: en
 Content-type: text/json
-`
+````
 The Host header specifies the host of the server and indicates where the resource is requested from.
 
 The User-Agent header informs the web server of the application that is making the request. It often includes the operating system (Windows, Mac, Linux), version and application vendor.
