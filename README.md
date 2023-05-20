@@ -28,7 +28,7 @@ The primary or the most commonly used HTTP methods are, GET, POST, PUT, and DELE
 |PUT|The client replaces a resource on the web server.|
 |DELETE|The client deletes a resource on the web server.|
 
-### HTTP Request Headers
+### HTTP request headers
 After the HTTP request line, the HTTP headers are followed by a line break. A header is a case-insensitive name followed by a: and then followed by a value.
 
 Common headers are:
@@ -48,7 +48,12 @@ The Accept header informs the web server what type of content the client will ac
 The Accept-Language header indicates the language and optionally the locale that the client prefers.
 
 The Content-type header indicates the type of content being transmitted in the request body.
-aaaa
+
+### HTTP response code
+![Response code 1-2](fig/HTTP%20response%20code%201XX-2XX.png)
+![Response code 3-4](fig/HTTP%20response%20code%203XX-4XX.png)
+![Response code 5](fig/HTTP%20response%20code%205XX.png)
+
 
 
 ## HTML
