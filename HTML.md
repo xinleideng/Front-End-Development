@@ -170,16 +170,6 @@ It can be nested inside other elements, for example:
 </div>
 ```
 
-Web view:
-
-<div>
-   <div>
-      <p>This is a paragraph inside a div that’s inside another div</p>
-   </div>
-</div>
-
-
-
 Div inside a dive displayed in browser 
 As mentioned, the div has no impact on content unless it is styled by CSS. Let’s add a small CSS rule that styles all divs on the page.
 
@@ -195,20 +185,6 @@ As mentioned, the div has no impact on content unless it is styled by CSS. Let�
       <p>This is a paragraph inside stylized divs</p>
    </div>
 ```
-
-Web view:
-
-<style>
-   div {
-      border: 1px solid black;
-      padding: 2px;
-   }
-</style>
-<div>
-   <div>
-      <p>This is a paragraph inside stylized divs</p>
-   </div>
-
 
 - Comments
 
