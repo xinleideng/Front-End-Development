@@ -13,10 +13,12 @@ Now you know that HTML documents are made up of elements and tags. But before ad
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Little Lemon</title>
     </head>
     <body>
-        
+        <h1>Our Menu</h1>
+        <h2>Falafel</h2>
+        <h2>Pasta Salad</h2>
     </body>
 
 </html>
