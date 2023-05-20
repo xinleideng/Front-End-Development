@@ -83,7 +83,6 @@ Bold tags should be used to draw attention but not to indicate that something is
 
 ```html
 The three core technologies of the Internet are <b>HTML</b>, <b>CSS</b> and <b>Javascript</b>.
-The following displays in the web browser: 
 ```
 
 - Emphasis
@@ -184,12 +183,15 @@ As mentioned, the div has no impact on content unless it is styled by CSS. Letâ€
    <div>
       <p>This is a paragraph inside stylized divs</p>
    </div>
+</div>
 ```
 
 - Comments
 
 If you want to leave a comment in the code for other developers, it can be added as:
+
 ```html
 <!-- This is a comment --> 
 ```
+
 The comment will not be displayed in the web browser.
