@@ -1,7 +1,7 @@
 # Front-End-Development
-Hi, this is my study path to a front-end developer. All of these contents are based on Courses from Coursera. Hope this will help someone like me become a developer of the future.
+Hi, this is my study path to a front-end developer. As I am keeping looking for data science jobs, many jobs need to see my sample code. So, I am thinking why not create a place to show them my study path. So, here it is. I am starting to create a project to show how to be a full stack developer. Hence, I will cover different topics including but not limited to Fron-End Development, Back-End Deveopment, Data Science, Machine Learning, Computer Vision, and Natural Language Processing. I will keeping updating as long as I can. All of these contents are based on what I have learned. Hope this will help someone like me become a developer of the future. If you like this project, please give me a star so that I can keep me motivated. But, if you would like to contribute and want to be a part of this project, please email me at xinlei.deng.apha@gmail.com.
 
-To begin, click the title of different section. It will lead you to the notes.
+To begin the journey of Fron-End development, click the title of different section. It will lead you to the notes.
 
 ## [HTTP](HTTP.md)
 HTTP is a core operational protocol of the world wide web. It is what enables your web browser to communicate with a web server that hosts a website. HTTP is the communication protocol you use whenever you browse the web. HTTP stands for Hypertext Transfer Protocol. It is a protocol used for transferring web resources such as HTML documents, images, styles, and other files. 
