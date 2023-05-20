@@ -39,7 +39,6 @@ Now you know that HTML documents are made up of elements and tags. But before ad
 </body>
 ```
 - Paragraphs
-Paragraphs contain text content.
 
 ```html
 <p>
@@ -51,6 +50,7 @@ Paragraphs contain text content.
 Note that putting content on a new line is ignored by the web browser.
 
 - Line Breaks
+
 As you've learned, line breaks in the paragraph tag line are ignored by HTML. Instead, they must be specified using the <br> tag. The <br> tag does not need a closing tag.
 
 ```html
@@ -62,6 +62,7 @@ As you've learned, line breaks in the paragraph tag line are ignored by HTML. In
 ```
 
 - Strong
+
 Strong tags can be used to indicate that a range of text has importance.
 ```html
 <p>
@@ -70,6 +71,7 @@ Strong tags can be used to indicate that a range of text has importance.
 ```
 
 - Bold
+
 Bold tags can be used to draw the reader's attention to a range of text.
 
 ```html
@@ -85,6 +87,7 @@ The following displays in the web browser:
 ```
 
 - Emphasis
+
 Emphasis tags can be used to add emphasis to text.
 
 ```html
@@ -94,6 +97,7 @@ Emphasis tags can be used to add emphasis to text.
 ```
 
 - Italics
+
 Italics tags can be used to offset a range of text.
 
 ```html
@@ -121,6 +125,7 @@ My favourite book is <i>Dracula</i>.
 Screen readers will not announce any difference if an italics tag is used.
 
 - Lists
+
 You can add lists to your web pages. There are two types of lists in HTML.
 
 Lists can be unordered using the <ul> tag. List items are specified using the <li> tag, for example:
@@ -144,6 +149,7 @@ Lists can also be ordered using the <ol> tag. Again, list items are specified us
 ```
 
 - Div tags
+
 A <div> tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS.
 
 The following example shows a <div> element that contains a paragraph element:
@@ -181,6 +187,7 @@ As mentioned, the div has no impact on content unless it is styled by CSS. Letâ€
 ```
 
 - Comments
+
 If you want to leave a comment in the code for other developers, it can be added as:
 ```html
 <!-- This is a comment --> 
