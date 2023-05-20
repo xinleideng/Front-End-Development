@@ -25,6 +25,21 @@ Now you know that HTML documents are made up of elements and tags. But before ad
 
 </html>
 ```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little Lemon</title>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <h2>Falafel</h2>
+        <p>Chickpea, herbs, and spices</p>
+        <h2>Pasta Salad</h2>
+        <p>Lettuce, vegetables, and mozzarella</p>
+    </body>
+
+</html>
+
 
 ## Simple HTML tags
 - Headings
@@ -51,7 +66,7 @@ Note that putting content on a new line is ignored by the web browser.
 
 - Line Breaks
 
-As you've learned, line breaks in the paragraph tag line are ignored by HTML. Instead, they must be specified using the <br> tag. The <br> tag does not need a closing tag.
+As you've learned, line breaks in the paragraph tag line are ignored by HTML. Instead, they must be specified using the &lt;br&gt; tag. The &lt;br&gt; tag does not need a closing tag.
 
 ```html
 <p>
@@ -128,7 +143,7 @@ Screen readers will not announce any difference if an italics tag is used.
 
 You can add lists to your web pages. There are two types of lists in HTML.
 
-Lists can be unordered using the <ul> tag. List items are specified using the <li> tag, for example:
+Lists can be unordered using the &lt;ul&gt; tag. List items are specified using the &lt;li&gt; tag, for example:
 
 ```html
 <ul>
@@ -138,7 +153,7 @@ Lists can be unordered using the <ul> tag. List items are specified using the <l
 </ul>
 ```
 
-Lists can also be ordered using the <ol> tag. Again, list items are specified using the <li> tag.
+Lists can also be ordered using the &lt;ol&gt; tag. Again, list items are specified using the &lt;li&gt; tag.
 
 ```html
 <ol>
@@ -150,9 +165,9 @@ Lists can also be ordered using the <ol> tag. Again, list items are specified us
 
 - Div tags
 
-A <div> tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS.
+A &lt;div&gt; tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS.
 
-The following example shows a <div> element that contains a paragraph element:
+The following example shows a &lt;div&gt; element that contains a paragraph element:
 
 ```html
 <div>
