@@ -9,6 +9,7 @@ HTTP is a core operational protocol of the world wide web. It is what enables yo
 An HTTP requests consists of a method, path, version and headers.
 
 `GET /home.html HTTP/1.1` 
+
 In this example, GET is the HTTP method, /home.html is the resource requested and HTTP 1.1 is the protocol used.
 
 The most commonly used HTTP protocol is Versions 1.1 and 2.0 
