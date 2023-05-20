@@ -195,3 +195,112 @@ If you want to leave a comment in the code for other developers, it can be added
 ```
 
 The comment will not be displayed in the web browser.
+
+- Anchor tag
+
+Anchor tag create hyperlinks or links as they are commonly known. This is used as &lt;a href='xx.html'&gt;text&lt;/a&gt;.
+
+- Image tag
+
+Image tag does not need to close: &lt;img src='xx.jpg' width='250' height='250'&gt;. If the image does not display, alt text should be given.
+
+- Table tag
+
+```html
+<table>
+    <tr> #table row
+        <th></th> #table head
+        <th></th>
+    </tr>
+    <tr>
+        <td></td> #table data
+    </tr>
+</table>
+```
+
+- Form tag
+
+From tag to create form and can incorperate with different input tags.
+Here is an example:
+```html
+<form action='/registration' method='POST'>
+<label for='username'>Username:</label><br>
+<input type='text' name='username'>
+<label for='password'>Password:</label><br>
+<input type='password'/>
+<input type='submit'/>
+</form>
+```
+Other input types:
+type='email'/'number'/'file'/'checkbox'/'radio'
+
+```html
+<input type='checkbox' name='dog' value='Dog'>
+<label for='dog'>I own a dog.</label><br>
+<input type='checkbox' name='cat' value='Cat'>
+<label for='cat'>I own a cat.</label>
+```
+
+- Textarea
+Input with type='text' only allows one line. For multiple lines, we can use textarea:
+```html
+<textarea name='multiline' row='5'></textarea>
+```
+
+- Dropdown list
+```html
+<select name='food'>
+<option value='chocolate'>Chocolate</option>
+<option value='ice_cream'>Ice Cream</option>
+</select>
+```
+
+
+Here is an example:
+
+
+This is index.html
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little Lemon</title>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <h2>Falafel</h2>
+        <p>Chickpea, herbs, and spices</p>
+        <img src='Falafel.jpg' width='240' height='135' alt='a flafel'>
+        <h2>Pasta Salad</h2>
+        <p>Lettuce, vegetables, and mozzarella</p>
+        <img src='Pasta Salad.jpg' width='240' height='135' alt='a pasta salad'>
+        <a href="location.html">Our location</a>
+    </body>
+
+</html>
+```
+
+This is location.html
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little Lemon</title>
+    </head>
+
+    <body>
+        <h1>Our Location</h1>
+        <p>123 Home Road, Main Street, Captial City, DC</p>
+    </body>
+
+</html>
+```
+
+
+## Document Object Model (DOM)
+
+DOM stands for Document Object Model and it is simply a tree, structure or model of the objects in your HTML file. The Document Object Model allows you to update all HTML elements on a web page with Javascript.
+
+![DOM](fig/HTML%20DOM.png)
