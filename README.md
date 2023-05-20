@@ -2,7 +2,6 @@
 Hi, this is my study path to a front-end developer. All of these contents are based on Courses from Coursera. Hope this will help someone like me become a developer of the future.
 
 ## HTTP
-
 ### What is HTTP?
 HTTP is a core operational protocol of the world wide web. It is what enables your web browser to communicate with a web server that hosts a website. HTTP is the communication protocol you use whenever you browse the web. HTTP stands for Hypertext Transfer Protocol. It is a protocol used for transferring web resources such as HTML documents, images, styles, and other files. 
 
@@ -22,6 +21,12 @@ The primary or the most commonly used HTTP methods are, GET, POST, PUT, and DELE
 - The PUT method updates whatever currently exists on the web server with something else. 
 - The DELETE method removes the resource.
 
+|HTTPS methods|Description|
+|-------------|-----------|
+|Get|The client requests a resource on the web server.|
+|POST|The client submits data to a resource on the web server.|
+|PUT|The client replaces a resource on the web server.|
+|DELETE|The client deletes a resource on the web server.|
 
 
 ## HTML
