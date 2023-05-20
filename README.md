@@ -32,7 +32,7 @@ The primary or the most commonly used HTTP methods are, GET, POST, PUT, and DELE
 After the HTTP request line, the HTTP headers are followed by a line break. A header is a case-insensitive name followed by a: and then followed by a value.
 
 Common headers are:
-```language{.line-numbers}
+```python
 Host: example.com
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:50.0) Gecko/20100101 Firefox/50.0
 Accept: */*
