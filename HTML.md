@@ -220,6 +220,8 @@ Image tag does not need to close: &lt;img src='xx.jpg' width='250' height='250'&
 
 - Form tag
 
+ You define forms with the html form tags. Forms also have an optional form attribute called action. Actions specifies the URL or path that the form should submit the request to. When the action attribute is not specified, it submits the request to the same path as the current web page. There is also the FORM method, with the FORM method you can specify the HTTP method to use for the HTTP request. There are two HTTP methods to submit the form data, GET and POST. Remember the GET HTTP method retrieves information from the server. The POST HTTP method sends data to the server. When a user submits a form, one of these HTTP methods is used.
+
 From tag to create form and can incorperate with different input tags.
 Here is an example:
 ```html
